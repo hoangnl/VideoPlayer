@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="player.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="player.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6" id="container">
+				<div id="player">
+					<div id="video-container">
+						<div id="screen">
+							<img id="screen-button" src="images/play.png">
+						</div>
+						<video id="video" poster="images/thumbnail.png">
+							<source src="sample.mp4">
+								It seems your browser doesn't support the HTML5 video tag. Please update it!
+							</video>
+						</div>
+
+						<div id="pbar-container">
+							<div id="pbar"></div>
+						</div>
+
+						<div id="buttons-container">
+							<img id="play-button" src="images/play.png">
+							<div id="time-field">
+								0:00 / 0:00
+							</div>
+							<img id="sound-button" src="images/sound.png">
+							<div id="sbar-container">
+								<div id="sbar"></div>
+							</div>
+							<img id="fullscreen-button" src="images/fullscreen.png">
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+	</html>
